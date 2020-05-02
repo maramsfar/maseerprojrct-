@@ -1,0 +1,81 @@
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 10vw;
+}
+.body {
+  margin-top: 100px;
+}
+.nav {
+  height: 100px;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+.button {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin-left: 40%;
+}
+a {
+  padding-left: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+}
+.leftpart {
+  position: absolute;
+  top: 7%;
+  left: 10%;
+}
+.rightpart {
+  position: absolute;
+  right: 10%;
+  top: 7%;
+}
+.nav-img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 46%;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 760px) {
+  .nav-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1%;
+    border: 2px solid white;
+  }
+  a {
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .leftpart {
+    position: static;
+    top: 7%;
+    left: 10%;
+  }
+  .links {
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+  }
+  .rightpart {
+    position: static;
+    right: 10%;
+    top: 7%;
+  }
+}
